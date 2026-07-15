@@ -3,6 +3,10 @@
 A professional Sales Forecasting web application built using **Python, Machine Learning, Streamlit, Pandas, Scikit-learn, and Plotly**.
 
 The application predicts future sales using a trained Linear Regression model and provides interactive sales analysis and visualizations.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
