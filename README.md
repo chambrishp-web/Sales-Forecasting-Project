@@ -125,19 +125,34 @@ streamlit run app.py
 - Python
 - Machine Learning
 - Linear Regression
+- Data Analysis
+- Data Visualization
+- Streamlit
+- Pandas
+- Plotly
+- Model Deployment
 
-## Workflow
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Model Training
-6. Model Evaluation
-7. Sales Prediction
-8. Streamlit Deployment
+---
 
-## Dataset
-Sample Superstore Dataset
+# 🔮 Future Improvements
 
-## Author
-Chambrish Prabhu
+- Daily Sales Forecasting
+- Weekly Sales Forecasting
+- Product-wise Prediction
+- Category-wise Prediction
+- Better ML Models
+- Streamlit Cloud Deployment
+
+---
+
+# 👨‍💻 Developer
+
+**Chambrish Prabhu**
+
+Aspiring Data Scientist | Python Developer | Data Analyst
+
+---
+
+# ⭐ If you like this project
+
+Please give this repository a ⭐ on GitHub.
