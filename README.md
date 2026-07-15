@@ -1,48 +1,59 @@
 # 📈 Sales Forecasting using Machine Learning
 
-A Sales Forecasting web application built using **Python, Streamlit, Pandas, Scikit-learn, and Plotly**.
+A professional Sales Forecasting web application built using **Python, Machine Learning, Streamlit, Pandas, Scikit-learn, and Plotly**.
 
-This project predicts future sales using a trained **Linear Regression** model and visualizes historical sales trends.
+The application predicts future sales using a trained Linear Regression model and provides interactive sales analysis and visualizations.
 
 ---
 
 # 📌 Project Overview
 
-This project helps businesses estimate future sales based on the selected year and month.
+This project predicts future sales based on the selected **Year** and **Month**.
 
-The application also provides insights into historical sales data using interactive charts and tables.
+The application also provides:
+
+- Sales Prediction
+- Dataset Overview
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+- Year-wise Sales Analysis
+
+The model is trained using the Superstore Sales Dataset.
 
 ---
 
 # 🚀 Features
 
-✅ Sales Prediction using Machine Learning
+✅ Machine Learning Sales Prediction
 
-✅ Interactive Streamlit Dashboard
+✅ Streamlit Interactive Dashboard
 
-✅ Year and Month Selection
+✅ Predict Sales using Year and Month
 
 ✅ Dataset Preview
 
 ✅ Monthly Sales Trend
 
-✅ Sales by Category
+✅ Sales by Category Chart
 
-✅ Sales by Region
+✅ Sales by Region Chart
 
 ✅ Year-wise Sales Analysis
+
+✅ Clean User Interface
 
 ---
 
 # 🛠 Technologies Used
 
 - Python
-- Streamlit
 - Pandas
 - NumPy
 - Scikit-learn
+- Streamlit
 - Plotly
-- Joblib
+- Matplotlib
 
 ---
 
@@ -52,6 +63,53 @@ Dataset Used:
 
 **Sample - Superstore.csv**
 
+The dataset contains:
+
+- Order Date
+- Sales
+- Category
+- Region
+- Customer Details
+- Product Details
+
+---
+
+# 📊 Dashboard Preview
+
+## Home Page
+
+![Home](screenshots/home%20page.png)
+
+---
+
+## Sales Prediction
+
+![Prediction](screenshots/sales%20prediction.png)
+
+---
+
+## Monthly Sales Trend
+
+![Monthly Trend](screenshots/monthly%20sales%20treand.png)
+
+---
+
+## Sales by Category
+
+![Category](screenshots/sales%20by%20category.png)
+
+---
+
+## Sales by Region
+
+![Region](screenshots/sales%20by%20region.png)
+
+---
+
+## Year-wise Sales
+
+![Year-wise](screenshots/year%20wise%20sales.png)
+
 ---
 
 # 📁 Project Structure
@@ -60,10 +118,17 @@ Dataset Used:
 Sales Forecasting Project
 │
 ├── app.py
-├── requirements.txt
 ├── sales_forecasting_model.pkl
 ├── Sample - Superstore.csv
-└── README.md
+├── requirements.txt
+├── README.md
+└── screenshots
+      ├── home page.png
+      ├── sales prediction.png
+      ├── monthly sales treand.png
+      ├── sales by category.png
+      ├── sales by region.png
+      └── year wise sales.png
 ```
 
 ---
@@ -73,14 +138,18 @@ Sales Forecasting Project
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Sales-Forecasting-Project.git
+git clone https://github.com/chambrishp-web/Sales-Forecasting-Project.git
 ```
 
-## Open Project
+---
+
+## Open Project Folder
 
 ```bash
 cd Sales-Forecasting-Project
 ```
+
+---
 
 ## Install Requirements
 
@@ -88,7 +157,9 @@ cd Sales-Forecasting-Project
 pip install -r requirements.txt
 ```
 
-## Run the Project
+---
+
+## Run Streamlit App
 
 ```bash
 streamlit run app.py
@@ -96,18 +167,16 @@ streamlit run app.py
 
 ---
 
-# 📈 Dashboard Functions
+# 📈 How the Prediction Works
 
-- Predict Future Sales
-- Dataset Overview
-- Monthly Sales Trend
-- Sales by Category
-- Sales by Region
-- Year-wise Sales Analysis
+1. Select a **Year**.
+2. Select a **Month**.
+3. Click **Predict Sales**.
+4. The trained Machine Learning model predicts the expected sales value for that month.
 
 ---
 
-# 🤖 Machine Learning Workflow
+# 🔄 Machine Learning Workflow
 
 - Data Collection
 - Data Cleaning
@@ -122,25 +191,25 @@ streamlit run app.py
 
 # 🎯 Skills Demonstrated
 
-- Python
+- Python Programming
 - Machine Learning
-- Linear Regression
-- Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Sales Forecasting
 - Data Visualization
-- Streamlit
-- Pandas
-- Plotly
-- Model Deployment
+- Streamlit Dashboard Development
 
 ---
 
 # 🔮 Future Improvements
 
-- Daily Sales Forecasting
-- Weekly Sales Forecasting
-- Product-wise Prediction
-- Category-wise Prediction
-- Better ML Models
+- Multiple Machine Learning Models
+- Forecast for Next 12 Months
+- Download Prediction Report
+- Interactive Dashboard Filters
 - Streamlit Cloud Deployment
 
 ---
@@ -149,7 +218,10 @@ streamlit run app.py
 
 **Chambrish Prabhu**
 
-Aspiring Data Scientist | Python Developer | Data Analyst
+Aspiring Data Scientist | Python Developer | Machine Learning Enthusiast
+
+GitHub:
+https://github.com/chambrishp-web
 
 ---
 
