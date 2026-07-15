@@ -1,47 +1,129 @@
-# Sales Forecasting using Machine Learning
+# 📈 Sales Forecasting using Machine Learning
 
-## Project Overview
-This project predicts future sales using a Linear Regression Machine Learning model. It is built with Python and Streamlit and uses the Superstore Sales dataset.
+A Sales Forecasting web application built using **Python, Streamlit, Pandas, Scikit-learn, and Plotly**.
 
-## Project Demo
+This project predicts future sales using a trained **Linear Regression** model and visualizes historical sales trends.
 
-### Home Page
-![Home](screenshots/home page.png)
+---
 
-### Sales Prediction
-![Prediction](screenshots/sales prediction.png)
+# 📌 Project Overview
 
-### Monthly Sales Trend
-![Monthly Trend](screenshots/monthly sales treand.png)
+This project helps businesses estimate future sales based on the selected year and month.
 
-### Sales by Category
-![Category](screenshots/sales by category.png)
+The application also provides insights into historical sales data using interactive charts and tables.
 
-### Sales by Region
-![Region](screenshots/sales by region.png)
+---
 
-### Year-wise Sales
-![Year-wise](screenshots/year wise sales.png)
+# 🚀 Features
 
-## Features
-- Predict future sales by Year and Month
-- Interactive Streamlit web application
-- Dataset overview
+✅ Sales Prediction using Machine Learning
+
+✅ Interactive Streamlit Dashboard
+
+✅ Year and Month Selection
+
+✅ Dataset Preview
+
+✅ Monthly Sales Trend
+
+✅ Sales by Category
+
+✅ Sales by Region
+
+✅ Year-wise Sales Analysis
+
+---
+
+# 🛠 Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Plotly
+- Joblib
+
+---
+
+# 📂 Dataset
+
+Dataset Used:
+
+**Sample - Superstore.csv**
+
+---
+
+# 📁 Project Structure
+
+```text
+Sales Forecasting Project
+│
+├── app.py
+├── requirements.txt
+├── sales_forecasting_model.pkl
+├── Sample - Superstore.csv
+└── README.md
+```
+
+---
+
+# ⚙ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Sales-Forecasting-Project.git
+```
+
+## Open Project
+
+```bash
+cd Sales-Forecasting-Project
+```
+
+## Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the Project
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 📈 Dashboard Functions
+
+- Predict Future Sales
+- Dataset Overview
 - Monthly Sales Trend
 - Sales by Category
 - Sales by Region
 - Year-wise Sales Analysis
 
-## Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Streamlit
-- Joblib
+---
 
-## Machine Learning Model
+# 🤖 Machine Learning Workflow
+
+- Data Collection
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Sales Prediction
+- Streamlit Deployment
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Python
+- Machine Learning
 - Linear Regression
 
 ## Workflow
