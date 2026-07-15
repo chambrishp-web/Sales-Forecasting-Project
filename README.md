@@ -3,6 +3,26 @@
 ## Project Overview
 This project predicts future sales using a Linear Regression Machine Learning model. It is built with Python and Streamlit and uses the Superstore Sales dataset.
 
+## Project Demo
+
+### Home Page
+![Home](screenshots/home page.png)
+
+### Sales Prediction
+![Prediction](screenshots/sales prediction.png)
+
+### Monthly Sales Trend
+![Monthly Trend](screenshots/monthly sales treand.png)
+
+### Sales by Category
+![Category](screenshots/sales by category.png)
+
+### Sales by Region
+![Region](screenshots/sales by region.png)
+
+### Year-wise Sales
+![Year-wise](screenshots/year wise sales.png)
+
 ## Features
 - Predict future sales by Year and Month
 - Interactive Streamlit web application
