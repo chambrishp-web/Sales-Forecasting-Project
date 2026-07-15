@@ -74,7 +74,7 @@ The dataset contains:
 
 ---
 
-# 📊 Dashboard Preview
+# 📊 Project Demo
 
 ## Home Page
 
